@@ -1,0 +1,37 @@
+.mainLevel11 {
+  max-width: 400px;
+  margin: 0 auto;
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 30px;
+}
+.mainLevel11 .h3Level11 {
+  color: var(--primary-color);
+  font-weight: 800;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.mainLevel11 .answers {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainLevel11 .answer {
+  height: 60px;
+  margin-bottom: 5px;
+}
+.mainLevel11 .answer::hover {
+  cursor: pointer;
+}
+
+.Level11Icon {
+  width: 100%;
+}

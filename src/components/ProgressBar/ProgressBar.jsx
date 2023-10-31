@@ -1,12 +1,15 @@
 import React from "react";
 import "./ProgressBar.css";
-import closeIcon from "./close-icon.png"
-import lifeIcon from "./life-icon.png"
+import closeIcon from "./close-icon.png";
+import lifeIcon from "./life-icon.png";
+import { Link } from "react-router-dom";
 
 const ProgressBar = () => {
   return (
     <nav>
-      <img src={closeIcon} alt="" />
+      <Link to="/">
+        <img src={closeIcon} alt="" />
+      </Link>
       <div className="bar">
         <span>.</span>
         <div className="progress">
